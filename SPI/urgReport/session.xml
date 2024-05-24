@@ -1,0 +1,51 @@
+<session version="1.1" release="V-2023.12" timestp="2024-05-15 11:43:57 GMT">
+  <info>
+    <attr name="datetime" value="Wed May 15 14:44:19 2024
+"/>
+    <attr name="command" value="urg -dir simv.vdb"/>
+    <attr name="top_instance" value="Top"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Line" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Cond" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Toggle" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="FSM" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Assert" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Line" value="71/71" />
+    <metric name="Cond" value="16/17" />
+    <metric name="Toggle" value="176/180" />
+    <metric name="Assert" value="5/5" />
+    <metric name="Group" value="100%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="Top._testbench::cg2">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="Top._testbench::cg">
+      <metric name="Group" value="100%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+    <scorelist type="total" name="Design Hierarchy Assert">
+      <score name="Assert" value="5/5" />
+      <score name="Score" value="100.00" />
+    </scorelist>
+    <scorelist type="total" name="Module List Assert">
+      <score name="Assert" value="5/5" />
+      <score name="Score" value="100.00" />
+    </scorelist>
+    <scorelist type="total" name="Assertion">
+      <score name="Assert" value="5/5" />
+      <score name="Score" value="100.00" />
+    </scorelist>
+  </scope>
+  </old_coverage>
+</session>
